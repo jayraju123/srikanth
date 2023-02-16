@@ -1,0 +1,36 @@
+git    1 yum update -y
+    2  yum install -y
+    3  yum install git -y
+    4  git -version
+    5  git -v
+    6  mkdir rdd
+    7  cd rdd
+    8  git init
+    9  ls
+   10  ls -ll
+   11  vi file1
+   12  git status
+   13  git add *
+   14  git status
+   15  git commit -m "file1 was added"
+   16  git config --global user.name "srikanth"
+   17  git config --global user.email "gitgisrikant@gmail.com"
+   18  git log
+   19  git push origin main
+   20  git push origin master
+   21  git push origin main
+   22  git push origin master
+   23  cd ..
+   24  git push origin master
+   25  git status
+   26  cd rdd
+   27  ls
+   28  ls -altr
+   29  git status
+   30  git branch
+   31  git branch -M main
+   32  git branch
+   33  git remote add origin https://github.com/jayraju123/sri.git
+   34  git push -u origin main
+   35  histor
+   36 jgit status
